@@ -41,3 +41,25 @@ let myobj={
 const myfunction=function(){
     console.log("Hello World");
 }
+
+//two types of memory
+//stack(primitive), heap(non-primitive)
+
+let youtubename = "munira"
+
+let anothername = youtubename
+anothername = "updated munira"
+
+console.log(youtubename);
+console.log(anothername);
+
+let userone = {
+    email: "munira@gmail.com"
+    upi: "munira@okicici"
+}
+
+let usertwo = userone
+usertwo.email = "xyz@gmail.com"
+
+console.log(userone);
+console.log(usertwo)
